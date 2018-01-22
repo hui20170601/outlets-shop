@@ -31,9 +31,36 @@
         </p>
       </div>
     </div>
-    <div class="order-kind">
-      
+    <div class="order-kind mui-bar-tab">
+      <div class="order-kind-items mui-tab-item">
+        <span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<span class="mui-tab-label">分类</span>
+      </div>
+       <div class="order-kind-items mui-tab-item">
+        <span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<span class="mui-tab-label">分类</span>
+      </div>
+       <div class="order-kind-items mui-tab-item">
+        <span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<span class="mui-tab-label">分类</span>
+      </div>
+       <div class="order-kind-items mui-tab-item">
+        <span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<span class="mui-tab-label">分类</span>
+      </div>
     </div>
+    <div class="settings">
+      <div class="mui-table-view-cell">
+			  <a class="mui-navigate-right">我的收藏</a>
+		  </div>
+      <div class="mui-table-view-cell">
+			  <a class="mui-navigate-right">门店信息</a>
+		  </div>
+      <div class="mui-table-view-cell">
+			  <a class="mui-navigate-right">设置</a>
+		  </div>
+    </div>
+    
 	</div>
 </template>
 
@@ -70,5 +97,28 @@ export default {
     border: 1px solid #fff;
     border-radius: 18px;
     padding: 0 5px;
+  }
+  .outlets-personal .order-kind {
+    display: flex;
+    display: -webkit-flex;
+    padding: 12px 0 55px;;
+  }
+  .outlets-personal .order-kind .order-kind-items {
+    flex: 1;
+  }
+  .outlets-personal .settings {
+    height: 3.2rem;
+    background-color: rgb(249, 249, 249);
+    padding-top: 12px;
+  }
+  .mui-table-view-cell:after {
+    height: 0;
+  }
+  .mui-push-right:after {
+    font-size: 24px;
+  }
+  .outlets-personal .settings .mui-table-view-cell{
+    margin-bottom: 12px;
+    background-color: #fff;
   }
 </style>
