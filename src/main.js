@@ -4,6 +4,8 @@ import router from './router'
 import mui from 'mui'
 
 import '../static/css/mui.css'
+import './style/main.css'
+
 
 
 Vue.config.productionTip = false

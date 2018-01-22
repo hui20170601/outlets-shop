@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+html, body,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img,
+small, strike, tt, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, fieldset,
+figure, figcaption, footer, header {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+ol, ul {
+  list-style: none; }
+/* iphone5 */
+@media screen and (max-width: 359px){
+    html{
+        font-size: 85px;
+    }
+}
+/* iphone6 */
+@media screen and (min-width: 360px) and (max-width: 374px){
+    html{
+        font-size: 90px;
+    }
+}
+/* iphone6 */
+@media screen and (min-width: 375px) and (max-width: 413px){
+    html{
+        font-size: 100px;
+    }
+}
+/* iphone6 p标准模式 */
+@media screen and (min-width: 414px){
+    html{
+        font-size: 110px;
+    }
+}
+
+body {
+    color: #929292;
+    font-size: 12px;
+    background-color: #fff;
+}
+.line {
+    height: 7px;
+    background: #ddd;
+}
+.line-bold{
+    height: 12px;
+    background: #ddd;
+}
+.f-12{
+    font-size: 12px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.bd {
+    border-bottom: 1px solid rgba(228, 228, 228, 1);
+}
+.bt {
+    border-top: 1px solid rgba(228, 228, 228, 1);
+}

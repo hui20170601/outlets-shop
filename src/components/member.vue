@@ -64,34 +64,7 @@
 					<div class="mui-indicator"></div>
 				</div>
 			</div>
-			<ul class="extentions" >
-    		<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
-				</li>
-  		</ul>
-			<div class="line"></div>
-			<div class="announcement">
+			<div class="announcement bd bt">
 				<div class="announcement-info">
 					<span class="mui-icon mui-icon-extra mui-icon-extra-gift"></span>
 					<ul class="message f-12">
@@ -100,9 +73,11 @@
 				</div>
 				<div class="details f-12">详情</div>
 			</div>
-			<div class="line"></div>
-			<div class="goods-pic clearfix">
+			<div class="goods-pic clearfix bd">
 				<div>
+					<img src="" alt="">
+				</div>
+        <div>
 					<img src="" alt="">
 				</div>
 				<div>
@@ -112,8 +87,7 @@
 					<img src="" alt="">
 				</div>
 			</div>
-			<div class="line-bold"></div>
-			<div class="hot-brand">
+			<div class="hot-brand bd">
 				<div class="title clearfix">
 					<span class="fl">热门品牌</span>
 					<span class="mui-icon mui-icon-forward fr"></span>
@@ -158,55 +132,36 @@
 					</div>
 				</div>
 			</div>
-			<div class="line-bold"></div>
-			<div class="recommend hot-brand">
-				<div class="title clearfix">
+			<div class="recommend clearfix">
+				<div class="title clearfix bd bt">
 					<span class="fl">热门推荐</span>
 					<span class="mui-icon mui-icon-forward fr"></span>
 					<span class="fr">更多推荐</span>			
 				</div>
-				<ul class="mui-table-view recommend-list">
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-				</ul>
+				<div class="recommend-items bd fl">
+          <img src="" alt="">
+          <p>苹果iPhone7</p>
+          <p>¥1500+5000积分</p>
+          <p>市场参考价： ¥4999</p>
+        </div>
+        <div class="recommend-items bd fl">
+          <img src="" alt="">
+          <p>苹果iPhone7</p>
+          <p>¥1500+5000积分</p>
+          <p>市场参考价： ¥4999</p>
+        </div>
+        <div class="recommend-items bd fl">
+          <img src="" alt="">
+          <p>苹果iPhone7</p>
+          <p>¥1500+5000积分</p>
+          <p>市场参考价： ¥4999</p>
+        </div>
+        <div class="recommend-items bd fl">
+          <img src="" alt="">
+          <p>苹果iPhone7</p>
+          <p>¥1500+5000积分</p>
+          <p>市场参考价： ¥4999</p>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -215,7 +170,7 @@
 <script>
 // import Mui from 'mui'
 export default {
-  name: "home",
+  name: "member",
   data() {
     return {};
   },
@@ -269,7 +224,8 @@ export default {
 		-webkit-justify-content: space-between;
 		height: 0.4rem;
 		line-height: 0.4rem;
-		padding: 0 0.2rem;
+    padding: 0 0.2rem;
+    margin-top: 10px;
 	}
 	.outlets-home .announcement .announcement-info {
 		display: flex;
@@ -291,30 +247,31 @@ export default {
 		border-radius: 3px;
 	}
 	.outlets-home .goods-pic {
-		padding: 0.1rem;
+    padding: 0.1rem 0.1rem 0.2rem;
 	}
 	.outlets-home .goods-pic div {
-		width: 1.72rem;
+    width: 1.72rem;
+    height: 0.95rem;
+    float: left;
 	}
 	.outlets-home .goods-pic div:first-child {
-		height: 2rem;
 		margin-right: 0.1rem;
 		background-color: red;
-		float: left;
+		margin-bottom: 0.1rem;
 	}
 	.outlets-home .goods-pic div:nth-child(2) {
-		height: 0.95rem;
 		background-color: rosybrown;
-		float: left;
 		margin-bottom: 0.1rem;		
+  }
+  .outlets-home .goods-pic div:nth-child(3) {
+		background-color: rosybrown;
+		margin-right: 0.1rem;
 	}
 	.outlets-home .goods-pic div:last-child {
-		height: 0.95rem;
 		background-color: green;
-		float: left;		
 	}
 	.outlets-home .hot-brand {
-		padding: 10px 10px 0;
+    padding: 10px 10px 0;
 	}
 	.outlets-home .title {
 		margin: 10px 5px 0;
@@ -343,12 +300,17 @@ export default {
 		padding: 20px 0 20px 5px;
 		background-color: rgba(228, 228, 228, 1);
 		margin: 0 7px 4px 0;
-	}
+  }
+  .outlets-home .recommend {
+    margin-top: 10px;
+  }
 	.outlets-home .recommend .title {
-		padding-bottom: 10px;
+    padding: 10px 15px;
+    margin: 0;
 	}
-	.recommend .recommend-list .recommend-list-txt{
-		width: 240px;
-		white-space: normal;
+	.recommend .recommend-items {
+    width: 50%;
+    padding: 0.1rem 0 0.3rem ;
+    text-align: center;
 	}
 </style>
