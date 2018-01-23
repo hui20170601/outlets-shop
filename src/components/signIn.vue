@@ -94,6 +94,6 @@ export default {
     transform: translateX(-50%);
     font-size: 16px;
     padding: 0 10px;
-    background-color: #fff;
+    background-color: #efeff4;
   }
 </style>

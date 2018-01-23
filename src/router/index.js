@@ -19,6 +19,7 @@ import changePwd from '@/components/changePwd'
 import addConsignee from '@/components/addConsignee'
 import changePhone from '@/components/changePhone'
 import changeAddress from '@/components/changeAddress'
+import productDetail from '@/components/productDetail'
 
 
 Vue.use(Router)
@@ -118,6 +119,11 @@ export default new Router({
             path: '/changeAddress',
             name: 'changeAddress',
             component: changeAddress
+        },
+        {
+            path: '/productDetail',
+            name: 'productDetail',
+            component: productDetail
         },
     ]
 })
