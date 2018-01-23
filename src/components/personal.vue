@@ -114,7 +114,7 @@ export default {
   .mui-table-view-cell:after {
     height: 0;
   }
-  .mui-push-right:after {
+  .mui-navigate-right:after {
     font-size: 24px;
   }
   .outlets-personal .settings .mui-table-view-cell{

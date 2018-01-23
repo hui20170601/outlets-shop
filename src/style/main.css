@@ -104,7 +104,6 @@ ul {
 body {
     color: #929292;
     font-size: 12px;
-    background-color: #fff;
 }
 
 .line {
@@ -145,3 +144,4 @@ body {
 .bt {
     border-top: 1px solid rgba(228, 228, 228, 1);
 }
+
