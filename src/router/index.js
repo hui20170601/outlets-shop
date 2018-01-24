@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import member from '@/components/member'
 import category from '@/components/category'
-import personal from '@/components/personal'
 import signIn from '@/components/signIn'
 import trans from '@/components/transaction'
 import chooseShop from '@/components/chooseShop'
@@ -14,12 +13,15 @@ import orderDetail from '@/components/orderDetail'
 import recommend from '@/components/recommend'
 import branches from '@/components/branches'
 import order from '@/components/order'
-import setting from '@/components/setting'
 import changePwd from '@/components/changePwd'
 import addConsignee from '@/components/addConsignee'
 import changePhone from '@/components/changePhone'
 import changeAddress from '@/components/changeAddress'
 import productDetail from '@/components/productDetail'
+import login from '@/components/login'
+import weChat from '@/components/weChat'
+import indentMange from '@/components/indentMange'
+import shopMange from '@/components/shopMange'
 
 
 Vue.use(Router)
@@ -39,11 +41,6 @@ export default new Router({
             path: '/category',
             name: 'category',
             component: category
-        },
-        {
-            path: '/personal',
-            name: 'personal',
-            component: personal
         },
         {
             path: '/signIn',
@@ -96,11 +93,6 @@ export default new Router({
             component: order
         },
         {
-            path: '/setting',
-            name: 'setting',
-            component: setting
-        },
-        {
             path: '/changePwd',
             name: 'changePwd',
             component: changePwd
@@ -124,6 +116,26 @@ export default new Router({
             path: '/productDetail',
             name: 'productDetail',
             component: productDetail
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: login
+        },
+        {
+            path: '/weChat',
+            name: 'weChat',
+            component: weChat
+        },
+        {
+            path: '/indentMange',
+            name: 'indentMange',
+            component: indentMange
+        },
+        {
+            path: '/shopMange',
+            name: 'shopMange',
+            component: shopMange
         },
     ]
 })

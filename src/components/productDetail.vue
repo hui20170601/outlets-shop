@@ -13,45 +13,6 @@
 			<div class="buy fr">立即购买</div>
 		</div>
 		<div class="mui-content">
-      <div id="slider" class="mui-slider slider">
-				<div class="mui-slider-group mui-slider-loop">
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="../assets/img/p4.jpg">
-						</a>
-					</div>
-					<!-- 第一张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p1.jpg">
-						</a>
-					</div>
-					<!-- 第二张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p2.jpg">
-						</a>
-					</div>
-					<!-- 第三张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p3.jpg">
-						</a>
-					</div>
-					<!-- 第四张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p4.jpg">
-						</a>
-					</div>
-					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="../assets/img/p1.jpg">
-						</a>
-					</div>
-				</div>
-			</div>
       <div class="goods-info bd">
         <p>华为 Mate 10 Pro</p>
         <p>保时捷版[免息送豪礼]HuaWei/华为 10 Pro手机正品MATE10,咨询客服有优惠!</p>

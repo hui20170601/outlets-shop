@@ -1,12 +1,12 @@
 <template>
-	<div class="outlets-orderDetail">
+	<div class="outlets-shop">
     <div class="mui-bar mui-bar-tab cancel">
       <button class="fr">取消订单</button>
     </div>
     <div class="mui-content">
       <div class="choose-shop">
         <span class="mui-icon-extra mui-icon-extra-outline"></span>
-        <span>等待提货</span>
+        <span class="f-16">未完成</span>
       </div>
       <div class="personal-info clearfix">
         <div class="fl">
@@ -17,7 +17,6 @@
           <p class="member-integral f-12">广州市白云区，江高小塘总站</p>
         </div>
       </div>
-      <div class="line-bold"></div>      
       <div class="personal-info clearfix">
         <div class="avatar fl">
           <img src="" alt="">
@@ -30,23 +29,20 @@
           </p>
         </div>
       </div>
-      <div class="line-bold"></div>
       <div class="goods-info">
-        <div class="title bt">商品信息</div>
-        <div class="content bd bt">
-          <a href="javascript:;">
-					  <img class="mui-media-object mui-pull-left" src="">
-					    <div class="mui-media-body">
-							  苹果 iphone7
-                <span class="fr">*1</span>
-							  <p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-							  <p class='mui-ellipsis'>¥4079</p>
-						  </div>
-					  </a>
+        <div class="title">商品信息</div>
+        <div class="content">
+					<img class="mui-media-object mui-pull-left" src="../assets/img/p3.jpg">
+					<div class="mui-media-body f-16 block">
+						苹果 iphone7
+            <span class="fr f-13 red">x1</span>
+						<p class='recommend-list-txt f-12 block'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
+						<p class='mui-ellipsis f-13 red'>¥4079</p>
+						<p class='mui-ellipsis f-12 block'>(门店自提）广州白云区店</p>
+					</div>
         </div>
       </div>
-      <div class="line-bold"></div>
-      <div class="order-info">
+      <!-- <div class="order-info">
         <div class="title bd">订单信息</div>
         <div class="num">
           <p><span>商品合计：</span><span>¥8599.00</span></p>
@@ -54,14 +50,13 @@
           <p><span>活动优惠：</span><span>-¥8.00</span></p>
         </div>
       </div> 
-      <div class="line-bold"></div>
       <div class="order-info">
         <div class="num">
           <p><span>订单编号：</span><span>¥8599.00</span><button class="fr">复制</button></p>
           <p><span>提交时间：</span><span>¥10.00</span></p>
           <p><span>支付方式：</span><span>-¥8.00</span></p>
         </div>
-      </div> 
+      </div>  -->
     </div>   
 	</div>
 </template>
@@ -94,7 +89,6 @@ export default {
     padding-left: 0.2rem;
     background-color:  rgb(26, 188, 156);
     color: #fff;
-    font-size: 18px;
   }
   .mui-icon-extra {
     font-weight: 900;
@@ -113,6 +107,8 @@ export default {
   }
   .personal-info {
     padding: 0.2rem 0.1rem;
+    margin: 0 0 12px;
+    background-color: #fff;    
   }
   .personal-info .avatar {
     width: 0.3rem;
@@ -129,14 +125,38 @@ export default {
     height: 0.4rem;
     line-height: 0.4rem;
   }
+  .goods-info {
+    background-color: #fff;        
+  }
   .goods-info .content,.order-info .num {
-    padding: 0.1rem 0.15rem;
+    padding: 0.2rem 0.15rem;
+  }
+  .content{
+    position: relative;
+    padding: 10px 0 6px;
+  }
+   .content img {
+    width: 0.9rem;
+    height: 1rem;
+    margin-right: 10px;
+  }
+  .content::before,.content::after {
+    content: '';
+    height: 1px;
+    background-color: rgba(228, 228, 228, 1);
+    position: absolute;
+    left: -0.2rem;
+    right: -0.2rem;
+    bottom: 0;
+  }
+  .content::before {
+    top: 0;
   }
   .order-info .num p {
     line-height: 30px;
     font-size: 12px;
   }
-  .outlets-orderDetail .num button {
+  .outlets-ordershop .num button {
    height: 25px;
    width: 60px;
    line-height: 25px;

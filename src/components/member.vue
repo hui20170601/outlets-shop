@@ -19,51 +19,6 @@
 			</a>
 		</div>
 		<div class="mui-content">
-			<div id="slider" class="mui-slider slider">
-				<div class="mui-slider-group mui-slider-loop">
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="../assets/img/p4.jpg">
-						</a>
-					</div>
-					<!-- 第一张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p1.jpg">
-						</a>
-					</div>
-					<!-- 第二张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p2.jpg">
-						</a>
-					</div>
-					<!-- 第三张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p3.jpg">
-						</a>
-					</div>
-					<!-- 第四张 -->
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../assets/img/p4.jpg">
-						</a>
-					</div>
-					<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="../assets/img/p1.jpg">
-						</a>
-					</div>
-				</div>
-				<div class="mui-slider-indicator">
-					<div class="mui-indicator mui-active"></div>
-					<div class="mui-indicator"></div>
-					<div class="mui-indicator"></div>
-					<div class="mui-indicator"></div>
-				</div>
-			</div>
 			<div class="announcement bd bt">
 				<div class="announcement-info">
 					<span class="mui-icon mui-icon-extra mui-icon-extra-gift"></span>
