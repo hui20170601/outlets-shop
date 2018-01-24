@@ -1,196 +1,236 @@
-@charset "utf-8";
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-small,
-strike,
-tt,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-fieldset,
-figure,
-figcaption,
-footer,
-header {
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-::-webkit-input-placeholder {
-    color: #bbb;
-    font-size: 14px;
-}
-::-moz-placeholder { 
-    color: #bbb;
-    font-size: 14px;
-} 
-:-ms-input-placeholder { 
-    color: #bbb;
-    font-size: 14px;
-} 
-input:-moz-placeholder { 
-    color: #bbb;
-    font-size: 14px;
-}
-
-/* iphone5 */
-
-@media screen and (max-width: 359px) {
-    html {
-        font-size: 85px;
+    @charset "utf-8";
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    small,
+    strike,
+    tt,
+    var,
+    b,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    fieldset,
+    figure,
+    figcaption,
+    footer,
+    header {
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
     }
-}
-
-
-/* iphone6 */
-
-@media screen and (min-width: 360px) and (max-width: 374px) {
-    html {
-        font-size: 90px;
+    
+    ol,
+    ul {
+        list-style: none;
     }
-}
-
-
-/* iphone6 */
-
-@media screen and (min-width: 375px) and (max-width: 413px) {
-    html {
-        font-size: 100px;
+    
+     ::-webkit-input-placeholder {
+        color: #bbb;
+        font-size: 14px;
     }
-}
-
-
-/* iphone6 p标准模式 */
-
-@media screen and (min-width: 414px) {
-    html {
-        font-size: 110px;
+    
+     ::-moz-placeholder {
+        color: #bbb;
+        font-size: 14px;
     }
-}
-
-body {
-    color: #686565;
-    font-size: 12px;
-}
-
-.line {
-    height: 7px;
-    background: rgba(228, 228, 228, 1);
-}
-
-.line-bold {
-    height: 12px;
-    background: rgba(228, 228, 228, 1);
-}
-
-.f-12 {
-    font-size: 12px;
-}
-.f-13 {
-    font-size: 13px;
-}
-.f-14 {
-    font-size: 14px;
-}
-.f-16 {
-    font-size: 16px;
-}
-.f-18 {
-    font-size: 18px;
-}
-.f-24 {
-    font-size: 24px;
-}
-
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-.red {
-    color: rgb(248, 82, 17)
-}
-.block {
-    color: #686565;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-.bd {
-    border-bottom: 1px solid #ccc;
-}
-
-.bt {
-    border-top: 1px solid #ccc;
-}
-
-.bgc {
-    background-color: rgba(26, 188, 156, 1);
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 20px;
-}
-.mui-checkbox input[type='checkbox']:checked:before {
-    color: rgba(26, 188, 156, 1);
-}
-
+    
+     :-ms-input-placeholder {
+        color: #bbb;
+        font-size: 14px;
+    }
+    
+    input:-moz-placeholder {
+        color: #bbb;
+        font-size: 14px;
+    }
+    /* iphone5 */
+    
+    @media screen and (max-width: 359px) {
+        html {
+            font-size: 85px;
+        }
+    }
+    /* iphone6 */
+    
+    @media screen and (min-width: 360px) and (max-width: 374px) {
+        html {
+            font-size: 90px;
+        }
+    }
+    /* iphone6 */
+    
+    @media screen and (min-width: 375px) and (max-width: 413px) {
+        html {
+            font-size: 100px;
+        }
+    }
+    /* iphone6 p标准模式 */
+    
+    @media screen and (min-width: 414px) {
+        html {
+            font-size: 110px;
+        }
+    }
+    
+    body {
+        color: #686565;
+        font-size: 12px;
+    }
+    
+    .line {
+        height: 7px;
+        background: rgba(228, 228, 228, 1);
+    }
+    
+    .line-bold {
+        height: 12px;
+        background: rgba(228, 228, 228, 1);
+    }
+    
+    .f-12 {
+        font-size: 12px;
+    }
+    
+    .f-13 {
+        font-size: 13px;
+    }
+    
+    .f-14 {
+        font-size: 14px;
+    }
+    
+    .f-16 {
+        font-size: 16px;
+    }
+    
+    .f-18 {
+        font-size: 18px;
+    }
+    
+    .f-24 {
+        font-size: 24px;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .red {
+        color: rgb(248, 82, 17)
+    }
+    
+    .block {
+        color: #686565;
+    }
+    
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+    
+    .bd {
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .bt {
+        border-top: 1px solid #ccc;
+    }
+    
+    .bgc {
+        background-color: rgba(26, 188, 156, 1);
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+    }
+    
+    .mui-checkbox input[type='checkbox']:checked:before {
+        color: rgba(26, 188, 156, 1);
+    }
+    
+    .mui-bar-tab {
+        box-shadow: 0px -1px 17px #999999;
+    }
+    
+    .personal-info {
+        padding: 0.2rem 0.1rem;
+        margin: 0 0 12px;
+        background-color: #fff;
+    }
+    
+    .personal-info .avatar {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: beige;
+        margin-right: 0.1rem;
+    }
+    
+    .personal-info .base-info {
+        margin-top: -1px;
+    }
+    
+    .base-info .member-integral {
+        margin-top: 5px;
+    }
+    
+    .mui-input-row label {
+        width: 25%;
+        padding: 18px 28px 8px 15px;
+    }
+    
+    .mui-input-row label~input {
+        width: 75%;
+        padding: 14px 15px 0 0;
+    }

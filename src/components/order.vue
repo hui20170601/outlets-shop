@@ -1,5 +1,5 @@
 <template>
-	<div class="outlets-order">
+	<div class="outlets-shop">
     <ul class="order-tab">
 			<li class="tab-active">全部</li>
 			<li>未完成</li>

@@ -1,7 +1,7 @@
 <template>
 	<div class="outlets-shop">
     <div class="mui-bar mui-bar-tab cancel">
-      <button class="fr">取消订单</button>
+      <button class="fr f-12 block">取消订单</button>
     </div>
     <div class="mui-content">
       <div class="choose-shop">
@@ -9,11 +9,11 @@
         <span class="f-16">未完成</span>
       </div>
       <div class="personal-info clearfix">
-        <div class="fl">
-          <span class="mui-icon mui-icon-location"></span>
+        <div class="icon fl">
+          <img src="../assets/img/u2862.svg" alt="">
         </div>
         <div class="base-info fl">
-          <p>广州市白云区店</p>
+          <p class="block f-16">广州市白云区店</p>
           <p class="member-integral f-12">广州市白云区，江高小塘总站</p>
         </div>
       </div>
@@ -22,7 +22,7 @@
           <img src="" alt="">
         </div>
         <div class="base-info fl">
-          <p>windir</p>
+          <p class="block f-16">windir</p>
           <p class="member-integral f-12">
             <span>黄金会员</span>
             <span>188 8888 8888</span>
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="goods-info">
-        <div class="title">商品信息</div>
+        <div class="title f-13">商品信息</div>
         <div class="content">
 					<img class="mui-media-object mui-pull-left" src="../assets/img/p3.jpg">
 					<div class="mui-media-body f-16 block">
@@ -42,21 +42,21 @@
 					</div>
         </div>
       </div>
-      <!-- <div class="order-info">
-        <div class="title bd">订单信息</div>
-        <div class="num">
-          <p><span>商品合计：</span><span>¥8599.00</span></p>
-          <p><span>积分抵扣：</span><span>¥10.00</span></p>
-          <p><span>活动优惠：</span><span>-¥8.00</span></p>
+       <div class="order-info">
+        <div class="title bd f-13">订单信息</div>
+        <div class="sum">
+          <p><span class="block">商品合计：</span><span class="num">¥8599.00</span></p>
+          <p><span class="block">积分抵扣：</span><span class="num">¥10.00</span></p>
+          <p><span class="block">活动优惠：</span><span class="num">- ¥8.00</span></p>
         </div>
       </div> 
       <div class="order-info">
-        <div class="num">
-          <p><span>订单编号：</span><span>¥8599.00</span><button class="fr">复制</button></p>
-          <p><span>提交时间：</span><span>¥10.00</span></p>
-          <p><span>支付方式：</span><span>-¥8.00</span></p>
+        <div class="sum">
+          <p><span class="block">订单编号：</span><span class="num">¥8599.00</span><button class="fr block f-12">复制</button></p>
+          <p><span class="block">提交时间：</span><span class="num">¥10.00</span></p>
+          <p><span class="block">支付方式：</span><span class="num">-¥8.00</span></p>
         </div>
-      </div>  -->
+      </div>  
     </div>   
 	</div>
 </template>
@@ -76,12 +76,11 @@ export default {
 
 <style scoped>
   .cancel button{
-    margin : 8px 20px 0 0;
-    color: #929292;
+    margin : 10px 20px 0 0;
     border-radius: 5px;
   }
   .choose-shop {
-    height: 0.8rem;
+    height: 1rem;
     display: flex;
     display: -webkit-flex;
     align-items: center;
@@ -94,31 +93,12 @@ export default {
     font-weight: 900;
     margin-right: 5px;
   }
-  .choose-shop .mui-navigate-right {
-    text-align: center;
-    font-size: 18px;
-  }
-  .choose-shop .mui-navigate-right:after {
-    font-size: 24px;
+  .personal-info .icon {
+    margin: 7px 10px 0 0;
   }
   .choose-shop .mui-table-view-cell {
     height: 100px;
     line-height: 80px;
-  }
-  .personal-info {
-    padding: 0.2rem 0.1rem;
-    margin: 0 0 12px;
-    background-color: #fff;    
-  }
-  .personal-info .avatar {
-    width: 0.3rem;
-    height: 0.3rem;
-    border-radius: 50%;
-    background-color: beige;
-    margin-right: 0.1rem;
-  }
-  .personal-info .base-info {
-     margin-top: -7px;
   }
   .title {
     padding: 0 0.15rem;
@@ -126,9 +106,10 @@ export default {
     line-height: 0.4rem;
   }
   .goods-info {
-    background-color: #fff;        
+    background-color: #fff;
+    margin-bottom: 12px;       
   }
-  .goods-info .content,.order-info .num {
+  .goods-info .content,.order-info .sum {
     padding: 0.2rem 0.15rem;
   }
   .content{
@@ -152,16 +133,22 @@ export default {
   .content::before {
     top: 0;
   }
-  .order-info .num p {
+  .order-info {
+    background-color: #fff;
+    margin-bottom: 12px;
+  }
+  .order-info .sum p {
     line-height: 30px;
     font-size: 12px;
   }
-  .outlets-ordershop .num button {
+  .order-info .num {
+    margin-left: 15px;
+  }
+  .outlets-shop .sum button {
    height: 25px;
    width: 60px;
    line-height: 25px;
    padding: 0;
-   color: #929292;
    border-radius: 5px;
  }
 </style>

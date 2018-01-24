@@ -22,6 +22,9 @@ import login from '@/components/login'
 import weChat from '@/components/weChat'
 import indentMange from '@/components/indentMange'
 import shopMange from '@/components/shopMange'
+import assess from '@/components/assess'
+import changeInfo from '@/components/changeInfo'
+import photo from '@/components/photo'
 
 
 Vue.use(Router)
@@ -136,6 +139,21 @@ export default new Router({
             path: '/shopMange',
             name: 'shopMange',
             component: shopMange
+        },
+        {
+            path: '/assess',
+            name: 'assess',
+            component: assess
+        },
+        {
+            path: '/changeInfo',
+            name: 'changeInfo',
+            component: changeInfo
+        },
+        {
+            path: '/photo',
+            name: 'photo',
+            component: photo
         },
     ]
 })
