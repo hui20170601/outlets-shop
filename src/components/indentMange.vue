@@ -26,7 +26,7 @@
         <div class="unfinish">
           <i class="icon-file-alt"></i>
           <span>未完成订单</span>
-          <span class="num red">12</span>
+          <span class="num">12</span>
         </div>
         <div class="line"></div>
         <div class="finished">
@@ -120,6 +120,9 @@ export default {
   }
   .category span {
     color: rgb(39, 38, 38);
+  }
+  .unfinish .num {
+     color: rgb(248, 82, 17)
   }
   .category .num {
     font-size: 13px;

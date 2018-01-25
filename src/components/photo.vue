@@ -49,6 +49,6 @@ export default {
  }
  .preview {
   margin-top: 50px;
-  height: 350px; 
+  height: 3rem; 
  }
 </style>

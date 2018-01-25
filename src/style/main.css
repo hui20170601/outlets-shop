@@ -192,7 +192,7 @@
         font-size: 16px;
         height: 40px;
         line-height: 40px;
-        border-radius: 20px;
+        border-radius: 5px;
     }
     
     .mui-checkbox input[type='checkbox']:checked:before {
@@ -225,12 +225,12 @@
         margin-top: 5px;
     }
     
-    .mui-input-row label {
+    .info label {
         width: 25%;
         padding: 18px 28px 8px 15px;
     }
     
-    .mui-input-row label~input {
+    .info label~input {
         width: 75%;
         padding: 14px 15px 0 0;
     }

@@ -4,13 +4,13 @@
       <img src="../assets/img/u3499.svg" alt="">
     </div>
     <div class="account">
-      <div class="mui-input-row bd">
+      <div class="mui-input-row bd info">
 				<label>
           <i class="icon-tasks"></i>
         </label>
 				<input type="text" placeholder="门店账号">
 			</div>
-      <div class="mui-input-row bd">
+      <div class="mui-input-row bd info">
 				<label>
           <i class="icon-lock"></i>
         </label>
@@ -46,14 +46,8 @@ export default {
     width: 70%;
     margin: 0 auto;
   }
-  .account .mui-input-row label {
-    width: 25%;
+  .account .info label {
     font-size: 20px;
-    padding: 18px 28px 8px 15px;
-  }
-  .account .mui-input-row label~input {
-    width: 75%;
-    padding: 14px 15px 0 0;
   }
   .account .login-btn {
     margin-top: 0.6rem;

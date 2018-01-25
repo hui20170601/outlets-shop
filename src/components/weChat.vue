@@ -6,7 +6,7 @@
     </div>
     <div class="access bt">
       <p class="txt">登录应用将获取以下权限</p>
-      <div class="mui-input-row mui-checkbox mui-left">
+      <div class="mui-input-row mui-checkbox mui-left agree">
 				<label>获得你的公开信息（昵称、头像等）</label>
 				<input name="checkbox" value="Item 2" type="checkbox" checked="">
 			</div>
@@ -43,13 +43,13 @@ export default {
   .access .txt {
     margin: 30px 0 10px;
   }
-  .access .mui-checkbox input[type='checkbox'] {
+  .access .agree input[type='checkbox'] {
     left: 0;
   }
-  .access .mui-checkbox input[type='checkbox']::before {
+  .access .agree input[type='checkbox']::before {
     font-size: 20px;
   }
-  .access .mui-checkbox.mui-left label {
+  .access .agree.mui-left label {
     padding: 9px 15px 11px 29px;
   }
    .access .confirm-btn {
